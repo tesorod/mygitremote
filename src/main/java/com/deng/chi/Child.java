@@ -2,7 +2,7 @@ package com.deng.chi;
 
 public class Child extends Men {
     static {
-        System.out.println("子类静态代码块");
+        System.out.println("冲突+子类静态代码块");
     }
 
     public Child() {
